@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pioneer bank</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="login-area">
+    <h1 class="text-center">Welcome to pioneer bank</h1>
+    <div class="submit-area">
+      <h4>Login</h4>
+      <input type="email" name="email" id="email-area" placeholder="enter your email" class="form-control">
+      <input type="password" name="password" id="password-area" placeholder='type your password' class="form-control">
+      <span><button id="submit-btn" class="submit-btn btn">Enter</button></span>
+    </div>
+  </div>
+  <div id="second-page">
+    <div id="balance-details">
+
+      <div id="cart1" class="carts">
+        <h4>Deposit today</h4>
+        <h3 id="deposit-balance">$ 00</h3>
+      </div>
+
+      <div id="cart2" class="carts">
+        <h4>Withdraw today</h4>
+        <h3 id="total-withdraw">$ 00</h3>
+      </div>
+      <div id="cart3" class="carts">
+        <h4>Balance</h4>
+        <h3 id="remaining-balance">$ 00</h3>
+      </div>
+    </div>
+
+
+    <div id="balance-input">
+      <div id="deposit-input">
+        <h4>Deposit</h4>
+        <input type="number" placeholder="$ type amount" id="deposit-field"><br>
+        <button id="deposit-btn">Deposit</button>
+      </div>
+      <div id="withdraw-input">
+        <h4>Withdraw</h4>
+        <input type="number" placeholder="$ type amount to withdraw" id="withdraw-field"><br>
+        <button id="Withdraw-btn">Withdraw</button>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

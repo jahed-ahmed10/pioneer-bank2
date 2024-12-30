@@ -1,0 +1,105 @@
+body{
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: white; */
+}
+
+#login-area{
+  /* display: none; */
+  box-shadow: 1px 1px 10px;
+  padding: 20px;
+  width: 60%;
+  /* border: 1px solid; */
+  border-radius: 20px;
+}
+
+.submit-area{
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.submit-btn{
+  border: none;
+  padding: 8px 18px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+}
+
+/* second page  */
+#second-page{
+  display: none;
+  /* background-color: red; */
+  padding: 20px;
+  width: 900px;
+}
+#balance-details{
+  /* background-color: magenta; */
+  display: flex;
+  justify-content: space-between;
+  
+}
+.carts{
+  color: white;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 20px 35px;
+  width: 30%;
+  text-align: center;
+}
+
+
+#cart1{
+  background-color: blueviolet;
+}
+#cart2{
+  background-color: brown;
+}
+#cart3{
+  background-color:  lightcoral;
+}
+
+/* second page input area  */
+
+
+#balance-input{
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+#balance-input input{
+  padding: 7px;
+  width: 70%;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: 1px solid black;
+}
+#balance-input #deposit-input{
+  /* background-color: gray; */
+  width: 48%;
+  box-shadow: 5px 11px 11px black;
+  border-radius: 7px;
+  padding: 20px;
+
+}
+#balance-input button{
+  border: none;
+  padding: 8px 11px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+}
+
+#balance-input #withdraw-input{
+  /* background-color: yellow; */
+  width: 48%;
+  box-shadow: 5px 11px 11px black;
+  border-radius: 7px;
+  padding: 20px;
+
+}
